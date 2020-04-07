@@ -373,7 +373,7 @@ func detectTileFormat(data *[]byte) (TileFormat, error) {
 		}
 	}
 
-	return UNKNOWN, errors.New("Could not detect tile format")
+	return UNKNOWN, errors.New("Could not detect tile format-Khalefa")
 }
 
 // stringToFloats converts a commma-delimited string of floats to a slice of
