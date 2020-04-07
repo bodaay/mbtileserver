@@ -23,7 +23,7 @@ import (
 	"github.com/shurcooL/httpfs/html/vfstemplate"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/consbio/mbtileserver/mbtiles"
+	"github.com/bodaay/mbtileserver/mbtiles"
 )
 
 const maxSignatureAge = time.Duration(15) * time.Minute

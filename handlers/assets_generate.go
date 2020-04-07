@@ -5,7 +5,7 @@ package main
 import (
 	"log"
 
-	"github.com/consbio/mbtileserver/handlers"
+	"github.com/bodaay/mbtileserver/handlers"
 	"github.com/shurcooL/vfsgen"
 )
 
