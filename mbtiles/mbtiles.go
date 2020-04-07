@@ -364,7 +364,7 @@ func detectTileFormat(data *[]byte) (TileFormat, error) {
 		ZLIB: []byte("\x78\x9c"),
 		PNG:  []byte("\x89\x50\x4E\x47\x0D\x0A\x1A\x0A"),
 		JPG:  []byte("\xFF\xD8\xFF"),
-		WEBP: []byte("\x52\x49\x46\x46\xc0\x00\x00\x00\x57\x45\x42\x50\x56\x50"),
+		WEBP: []byte("\x52\x49\x46\x46"),
 	}
 
 	for format, pattern := range patterns {
