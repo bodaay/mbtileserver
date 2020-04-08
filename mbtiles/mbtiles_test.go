@@ -3,7 +3,7 @@ package mbtiles_test
 import (
 	"testing"
 
-	"github.com/consbio/mbtileserver/mbtiles"
+	"github.com/bodaay/mbtileserver/mbtiles"
 )
 
 func Test_TileFormat_String(t *testing.T) {
